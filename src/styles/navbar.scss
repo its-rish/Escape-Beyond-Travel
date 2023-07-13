@@ -1,0 +1,54 @@
+.Nav-wrapper {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .nav-logo {
+            width: 204px;
+            height: 110px;
+        }
+
+        >ul {
+            display: flex;
+            text-decoration: none;
+            margin: 0 auto;
+
+
+            >li{
+                padding-right: 57px;
+
+                >a { 
+                    color: #FFF;
+                    font-family: 'Kumbh Sans', sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 1.5;
+                }
+                >a:hover{
+                    color:#01AEF0;
+                    transition: ease-in 350ms;
+                }
+            }
+            >li:last-child{
+                padding-right: 0;
+            }
+            
+
+         
+
+
+        }
+       
+    }
+
+
+}
