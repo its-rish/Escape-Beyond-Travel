@@ -6,7 +6,7 @@ function Banner() {
   return (
     <div className='banner'>
       <div className="banner-img">
-        <img src={Bannerimg} alt="" />
+        <img src={Bannerimg} alt="banner-img" />
         <div className="container">
         <div className="wrap-banner-text">
           <p className='banner-headline'>Luxury Travel Reimagined</p>

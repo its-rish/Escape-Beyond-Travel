@@ -1,0 +1,24 @@
+.destionations{
+    width: 100%;
+    >.container{
+        >.destionations-title{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 55px;
+        }
+        >.all-destinations{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+           
+
+            >.wrap-destination{
+                width: calc(100% / 4);
+                flex-basis: calc(100% / 4);
+                
+            }
+          
+        }
+    }
+}
