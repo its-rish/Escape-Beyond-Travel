@@ -5,6 +5,9 @@ import Banner from './components/Banner'
 import Welcometext from './components/Welcometext'
 import Destinations from './components/Destinations'
 import AboutMe from './components/AboutMe'
+import LatestNews from './components/latestNews'
+import FollowUs from './components/FollowUs'
+import Newslater from './components/Newslater'
 
 
 
@@ -16,6 +19,9 @@ function App() {
      <Welcometext/>
      <Destinations/>
      <AboutMe/>
+     <LatestNews/>
+     <FollowUs/>
+     <Newslater/>
    
     </div>
   )

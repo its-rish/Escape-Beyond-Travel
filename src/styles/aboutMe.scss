@@ -1,15 +1,18 @@
 .aboutme {
     width: 100%;
-    position: relative;
+
 
     >h2 {
         text-align: center;
         padding-bottom: 43px;
     }
+
     >.container {
 
-    >.wrap-container {
-       
+        >.wrap-container {
+            position: relative;
+            width: 100%;
+
             >.aboutme-text {
                 margin-left: 140px;
                 background-color: #EDFAFF;
@@ -44,7 +47,17 @@
                 }
             }
 
-       
+            >.about-img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 446.473px;
+                height: 497px;
+                transform: translate(0px, 58px);               
+            }
+
+
+        }
+
     }
-}
 }

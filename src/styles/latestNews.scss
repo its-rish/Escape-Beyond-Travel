@@ -1,0 +1,30 @@
+.latestnews{
+    >.container{
+        >h2{
+            text-align: center;
+            padding-bottom: 23px;
+        }
+        >p{
+            max-width: 729px;
+            text-align: center;
+            width: 100%;
+            margin: 0 auto;
+            padding-bottom: 33px;
+        }
+        >.latest-all-news{
+            display:flex;
+            flex-wrap: wrap;
+            width: 100%;
+            // margin: 0 -12px;
+            >.news{
+                width:calc(100% / 3);
+                flex-basis:calc(100% / 3);
+                // padding: 0 12px;
+            }
+        }
+        >.latest-news-btn{
+            text-align: center;
+            margin-top: 33px;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.wrapnews {
+    cursor: pointer;
+
+    >.news-img {
+        width: 360px;
+        height: 255px;
+
+        >img {
+            object-fit: cover;
+        }
+    }
+
+    >.date {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 24px 0 17px 0;
+        cursor: pointer;
+
+        >img {
+            width: 18px;
+            height: 18px;
+            padding-right: 5px;
+
+        }
+
+        >.date-value {
+            color: #01AEF0;
+            font-size: 14px;
+            font-weight: 400;
+
+        }
+    }
+
+    >h3 {
+        text-align: center;
+        font-weight: 500;
+        font-family: 'Kumbh Sans', sans-serif;
+        padding-bottom: 8px;
+    }
+    >p{
+       line-height: 1.7;
+       max-width: 358px;
+       width:100%;
+       margin: 0 auto;
+       text-align: center; 
+    }
+
+}

@@ -1,0 +1,13 @@
+.newslater{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    >.left-side{
+        width: 50%;
+        flex-basis: 50%;
+    }
+    >.right-side{
+        width: 50%;
+        flex-basis: 50%;
+    }
+}

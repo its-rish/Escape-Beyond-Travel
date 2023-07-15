@@ -1,0 +1,39 @@
+.followus {
+    position: relative;
+    width: 100%;
+
+    >h2 {
+        text-align: center;
+       margin: 112px 0 171px 0;
+    }
+
+    >.wrap-img {
+        background-color: #EDFAFF;;
+        position: relative;
+       width: 100%;
+       height: 230px;
+
+        >.img-position{
+                justify-content: center;
+                display: flex;
+                position: absolute;
+                bottom: 85px;
+                width: 100%;
+                margin: 0 -2px;
+            
+           
+
+            >.imageWrapper {
+                width: 237px;
+                height: 261px;
+                padding: 0 2px;
+                >img{
+                    object-fit: cover;
+                }
+            }
+
+        }
+
+       
+    }
+}
