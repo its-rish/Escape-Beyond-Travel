@@ -1,0 +1,175 @@
+.footer-title {
+    color: #0F2F3C;
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 25px;
+
+}
+
+
+.wrap-footer {
+    >.container {
+        >.footer-wraper {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 62px 0 75px 0;
+
+            >.heyThere {
+                width: 30%;
+                flex-basis: 30%;
+
+
+
+                >p {
+
+                    font-size: 15px;
+                    line-height: 1.6;
+                    max-width: 281px;
+                    padding-bottom: 38px;
+
+                }
+
+                >.footer-SocialMedia {
+                    >ul {
+                        display: flex;
+
+                        >li {
+                            padding-right: 26px;
+                        }
+                    }
+                }
+            }
+
+            >.quicklinks {
+                width: 20%;
+                flex-basis: 20%;
+
+                >ul {
+                    display: flex;
+                    flex-direction: column;
+
+                    >li {
+                        padding-bottom: 18px;
+
+                        >a {
+                            color: #565555;
+                            font-size: 14px;
+
+                            font-weight: 500;
+
+                        }
+
+                        >a:hover {
+                            color: #08A1DC;
+                        }
+                    }
+                }
+            }
+
+            >.recentPost {
+                width: 20%;
+                flex-basis: 20%;
+
+                >.post {
+                    padding-bottom: 38px;
+
+                    >.calender {
+                        display: flex;
+                        align-items: center;
+                        padding-bottom: 7px;
+
+                        >img {
+                            width: 18px;
+                            padding-right: 5px;
+                        }
+                    }
+                }
+            }
+
+            >.contactinformation {
+                width: 30%;
+                flex-basis: 30%;
+
+                >.location {
+                    display: flex;
+
+                    >img {
+                        width: 19px;
+                        padding: 15px 11px 0 0;
+                    }
+
+                    >p {
+                        max-width: 201px;
+                        font-size: 14px;
+
+                    }
+                }
+
+                >.mail {
+                    display: flex;
+                    padding: 12px 0 18px 0;
+
+                    >img {
+                        width: 19px;
+                        padding: 5px 11px 0 0;
+                    }
+
+                    >a {
+                        color: #565555;
+                        font-size: 14px;
+                        font-weight: 400;
+
+                    }
+                    a:hover{
+                        color: #08A1DC;
+                    }
+                }
+
+                >.contact {
+                    display: flex;
+
+                    >img {
+                        width: 19px;
+                        padding: 5px 11px 0 0;
+                    }
+
+                    >a {
+                        color: #565555;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                    a:hover{
+                        color: #08A1DC;
+                    }
+                }
+            }
+
+        }
+
+        >.footer-bottom {
+            text-align: center;
+
+            p {
+                color: #565555;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 1.5;
+                text-transform: capitalize;
+
+                
+
+                >a {
+                    color: #565555;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 1.5;
+                }
+                >a:hover{
+                    color: #08A1DC;
+                }
+            }
+        }
+    }
+}

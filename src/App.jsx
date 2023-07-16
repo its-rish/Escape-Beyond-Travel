@@ -8,6 +8,8 @@ import AboutMe from './components/AboutMe'
 import LatestNews from './components/latestNews'
 import FollowUs from './components/FollowUs'
 import Newslater from './components/Newslater'
+import Partners from './components/Partners'
+import Footer from './components/footer'
 
 
 
@@ -22,7 +24,8 @@ function App() {
      <LatestNews/>
      <FollowUs/>
      <Newslater/>
-   
+     <Partners/>
+    <Footer/>
     </div>
   )
 }

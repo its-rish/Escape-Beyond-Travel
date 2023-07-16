@@ -5,21 +5,31 @@ import NewsLaterImg from "../assets/NewsLater.png"
 function Newslater() {
   return (
     <div className='newslater'>
-        <div className="left-side">
+    <div className="container">
+      <div className="wrap-container">
+      <div className="left-side">
+            <div className="text-wraper">
             <h2>Get started today</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitusce convallis</p>
             <div className="form">
-                <input type="text"  />
-                <input type="text" />
-                <input type="text" />
-                <input type="text" />
-                <textarea placeholder='Message'></textarea>
+             <div className="input-text">
+             <input type="text"  placeholder='First name'/>
+                <input type="text " placeholder='Last name' />
+                <input type="number" placeholder='Phone' />
+                <input type="email" placeholder='Email'/>
+             </div>
+                <textarea placeholder='Message'className='text-area'></textarea>
                 <button className="global-btn">Submit now</button>
+            </div>
             </div>
         </div>
         <div className="right-side">
+            <div className="img-wraper">
             <img src={NewsLaterImg} alt="img" />
+            </div>
         </div>
+      </div>
+    </div>
     </div>
   )
 }

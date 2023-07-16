@@ -1,13 +1,94 @@
-.newslater{
-    display: flex;
+.newslater {
     width: 100%;
-    flex-wrap: wrap;
-    >.left-side{
-        width: 50%;
-        flex-basis: 50%;
-    }
-    >.right-side{
-        width: 50%;
-        flex-basis: 50%;
+    position: relative;
+    background-color: #0F2F3C;
+
+    >.container {
+        >.wrap-container {
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+
+            >.left-side {
+                width: 50%;
+                flex-basis: 50%;
+
+
+                >.text-wraper {
+                    margin: 129px 56px 136px 0;
+
+                    >h2 {
+                        color: #FFF;
+                        font-family: 'Sawarabi Mincho', serif;
+                        font-size: 48px;
+                        font-weight: 400;
+                        line-height: 1;
+                    }
+
+                    >p {
+                        color: #FFF;
+                        padding: 30px 0 34px 0;
+                    }
+
+                    >.form {
+                        >.input-text {
+                            display: flex;
+                            flex-wrap: wrap;
+                            width: 100%;
+
+                            >input {
+                                width: 46%;
+                                flex-basis: 46%;
+                                background-color: transparent;
+                                border: none;
+                                padding: 24px 1px;
+                                margin-right: 16px;
+                                border-radius: 2px;
+                                border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+                                
+                                
+
+                                >::placeholder {
+                                    color: #CECECE;
+                                    font-family: 'Sawarabi Mincho', serif;
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    line-height: 1.5;
+                                   
+                                }
+
+                            }
+                        }
+
+                        >.text-area {
+                            padding: 21px 351px 54px 0;
+                            background-color: transparent;
+                            border: none;
+                            border-radius: 2px;
+                            border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+                        }
+
+                        >button {
+                            margin-top: 34px;
+                        }
+                    }
+
+                }
+
+            }
+
+            >.right-side {
+                width: 50%;
+                flex-basis: 50%;
+
+
+                >.img-wraper {
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+        }
     }
 }
